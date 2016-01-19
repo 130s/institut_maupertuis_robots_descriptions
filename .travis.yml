@@ -16,6 +16,7 @@ env:
 #      ROS_DISTRO="indigo" 
 #      ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu
 
-script: 
+script:
+  - source .travis.sh
   - source .ci_config/travis.sh
 
