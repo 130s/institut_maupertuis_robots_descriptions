@@ -12,9 +12,9 @@ env:
     - USE_DEB=true  
       ROS_DISTRO="indigo" 
       ROS_REPOSITORY_PATH=http://packages.ros.org/ros/ubuntu
-    - USE_DEB=true  
-      ROS_DISTRO="indigo" 
-      ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu
+#    - USE_DEB=true  
+#      ROS_DISTRO="indigo" 
+#      ROS_REPOSITORY_PATH=http://packages.ros.org/ros-shadow-fixed/ubuntu
 
 script: 
   - source .ci_config/travis.sh
