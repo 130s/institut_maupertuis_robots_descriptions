@@ -1,3 +1,4 @@
+set +x
 pwd
 ls
 cd ..
